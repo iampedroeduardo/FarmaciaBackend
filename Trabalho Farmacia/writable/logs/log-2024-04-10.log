@@ -1,0 +1,43 @@
+CRITICAL - 2024-04-10 12:20:49 --> TypeError: App\Controllers\Home::calculo(): Return value must be of type string, none returned
+[Method: POST, Route: calculo]
+in APPPATH\Controllers\Home.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->calculo()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\pedro\\Downloads\\codeigniter4-framework-365a46c\\public\\index.php')
+CRITICAL - 2024-04-10 12:28:49 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\pedro\Downloads\codeigniter4-framework-365a46c\app\Controllers\Home.php on line 22
+[Method: POST, Route: calculo]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Home.php(22): view('resultado', 'pedro', '1000', '18', 730.0)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->calculo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\pedro\\Downloads\\codeigniter4-framework-365a46c\\public\\index.php')
+CRITICAL - 2024-04-10 12:29:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\pedro\Downloads\codeigniter4-framework-365a46c\app\Controllers\Home.php on line 22
+[Method: POST, Route: calculo]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Home.php(22): view('resultado', 'pedro', '1000', '18', 730.0)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->calculo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\pedro\\Downloads\\codeigniter4-framework-365a46c\\public\\index.php')
+CRITICAL - 2024-04-10 12:29:20 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\pedro\Downloads\codeigniter4-framework-365a46c\app\Controllers\Home.php on line 22
+[Method: POST, Route: calculo]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\Home.php(22): view('resultado', 'pedro', '1000', '18', 730.0)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->calculo()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\Users\\pedro\\Downloads\\codeigniter4-framework-365a46c\\public\\index.php')
