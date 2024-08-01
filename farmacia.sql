@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 20/07/2024 às 18:28
+-- Tempo de geração: 01/08/2024 às 04:26
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -40,7 +40,12 @@ CREATE TABLE `remedio` (
 --
 
 INSERT INTO `remedio` (`codigo`, `nome`, `laboratorio`, `preco`, `quantidade`) VALUES
-(1, 'Cimegripe', 'Cimed', 9.9, 10);
+(1, 'Cimegripe', 'Cimed', 9.9, 10),
+(2, 'Naldecon', 'EMS', 20, 30),
+(3, 'Paracetamol', 'Aché', 10, 10),
+(4, 'Paracetamol', 'Aché', 10, 10),
+(5, 'Paracetamol', 'Aché', 10, 10),
+(6, 'Dipirona', 'Aché', 5, 10);
 
 --
 -- Índices para tabelas despejadas
@@ -60,7 +65,7 @@ ALTER TABLE `remedio`
 -- AUTO_INCREMENT de tabela `remedio`
 --
 ALTER TABLE `remedio`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
