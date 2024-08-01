@@ -6,9 +6,13 @@
     <title>Farmácia</title>
 </head>
 <body>
+    <h1>Cadastrar Medicamento</h1>
     <form action="cadastrar" method="post" enctype="multipart/form-data">
         <label for="nome">Nome:</label>
         <input type="text" name="nome">
+        <br>
+        <label for="laboratorio">Laboratório:</label>
+        <br>
         <input type="radio" name="laboratorio" value="Aché">
         <label for="laboratorio">Aché</label>
         <input type="radio" name="laboratorio" value="Cimed">
@@ -19,10 +23,13 @@
         <label for="laboratorio">Eurofarma</label>
         <input type="radio" name="laboratorio" value="Neo Química">
         <label for="laboratorio">Neo Química</label>
+        <br>
         <label for="preco">Preço:</label>
         <input type="number" step="0.01" name="preco">
+        <br>
         <label for="quantidade">Quantidade:</label>
         <input type="number" name="quantidade">
+        <br>
         <input type="submit" value="Cadastrar">
     </form>
 </body>
